@@ -1,0 +1,25 @@
+/* Navbar Styling */
+
+#navbar {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 25px;
+  }
+  
+.title a {
+    color: white;
+    font-size: 35px;
+    margin-right: 25px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+.nav_buttons a {
+    color: white;
+    font-size: 25px;
+    margin-right: 16px;
+    text-decoration: none;
+  }

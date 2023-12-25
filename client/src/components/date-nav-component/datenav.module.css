@@ -1,0 +1,85 @@
+/* DateNavigator.module.css */
+
+.dateNavStyle{
+    background-color: #c8d9ed;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  width: 15%; /* Adjusted width */
+  margin: auto;
+
+}
+
+.dateRectangle {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  flex-grow: 1;
+  text-align: center;
+  background-color: #f8f8f8; /* Added a light background color */
+}
+
+.button {
+    padding: 15px 25px; /* Increased padding for larger button */
+    font-size: 2.5rem;
+    background-color: #4d4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+
+.button:hover {
+  background-color: #333;
+}
+
+.prevNextButton {
+    font-size: 2.5 rem; /* Adjusted font size for the arrows */
+    margin: 0; /* Remove default margin for cleaner styling */
+  }
+
+.containerStyle {
+  padding: 1rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #718096;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Adjusted alignment */
+  gap: 1.25rem;
+  background-color: #fff; /* Added a white background color */
+}
+
+.headerStyle {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.editStyle {
+  text-decoration: none;
+  color: #4d4d4d; /* Adjusted color */
+}
+
+.spanStyle {
+  padding: 1rem;
+}
+
+.inputStyle {
+  width: 3rem;
+}
+
+.titleStyle{
+    text-align: center;
+    font-size: 2.5rem; /* Adjusted font size */
+    margin-bottom: 1.5rem; /* Adjusted margin */
+    color: #333; /* Adjusted color */
+    font-family: 'Arial', sans-serif; /* Added a font family */
+    font-weight: bold; /* Added font weight for emphasis */
+  }
